@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+html {
+  font-family: 'Jaldi', sans-serif;
+  background-image: linear-gradient(180deg, #5452c9 0%, rgba(21, 20, 72, 0.56) 100%);
+}
