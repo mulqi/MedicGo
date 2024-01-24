@@ -8,7 +8,9 @@ export const Button = (prop: ButtonProp) => {
 
   return (
     <div className={style}>
-      <button className={buttonStyle}>{prop.title}</button>
+      <button type="submit" className={buttonStyle} onClick={prop.onClick}>
+        {prop.title}
+      </button>
     </div>
   );
 };

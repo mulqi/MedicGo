@@ -9,10 +9,10 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Registrasi" element={<Regist />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registrasi" element={<Regist />} />
         <Route path="/dashboard" element={<DashBoard />} />
-        <Route path="/Cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
   );
