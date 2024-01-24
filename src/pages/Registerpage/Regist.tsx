@@ -33,7 +33,7 @@ export default function Regist() {
           <div className="inline-flex p-10">
             <span className="">
               Sudah punya akun ?
-              <button className="text-blue-500" onClick={() => navigate('/Login')}>
+              <button className="text-blue-500" onClick={() => navigate('/')}>
                 Masuk
               </button>
             </span>

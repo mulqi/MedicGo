@@ -13,7 +13,7 @@ export const useRegisterService = () => {
     onSuccess: (data) => {
       console.log(data);
       if (data.user) {
-        navigate('/Login');
+        navigate('/');
       }
     },
   });
