@@ -9,7 +9,7 @@ export default function Cart() {
   return (
     <>
       <HeaderDashboard />;
-      <div className="bg-[#332941] md:w-[832px] text-center rounded-md p-1 ml-1 text-white font-bold">
+      <div className="bg-[#332941] w-full md:w-[832px] text-center rounded-md p-1 ml-1 text-white font-bold">
         <button onClick={() => navigate('/dashboard')}> ~DashBoard~ </button>
       </div>
       <CartField initialOrder={0} /> ;
